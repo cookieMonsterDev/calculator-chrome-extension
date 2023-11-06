@@ -1,13 +1,10 @@
-import { useState } from "react";
+import { Calculator } from "./components/calculator";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <>
-      <div>{count}</div>
-      <button onClick={() => setCount((prev) => ++prev)}>Add</button>
-    </>
+    <div className="container w-[25rem] p-1 bg-zinc-800">
+      <Calculator />
+    </div>
   );
 }
 
