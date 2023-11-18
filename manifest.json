@@ -1,12 +1,12 @@
 {
   "manifest_version": 3,
   "name": "Calculator",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "action": { "default_popup": "index.html" },
   "icons": {
-    "16": "logo_2023_hex_letter_16.png",
-    "32": "logo_2023_hex_letter_32.png",
-    "48": "logo_2023_hex_letter_48.png",
-    "128": "logo_2023_hex_letter_128.png"
+    "16": "calculator_logo_16px.png",
+    "32": "calculator_logo_32px.png",
+    "48": "calculator_logo_48px.png",
+    "128": "calculator_logo_128px.png"
   }
 }
